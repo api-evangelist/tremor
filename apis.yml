@@ -1,22 +1,73 @@
 aid: tremor
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tremor.png
 name: Tremor
-description: Tremor is a company surfaced as a portfolio company of anthemis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Tremor Technologies operated a programmatic "smart market" for wholesale risk
+  and reinsurance, applying intelligent market design, auction technology, and
+  optimization to match risk with capital and price and place reinsurance
+  contracts far faster and cheaper than traditional negotiated markets. Founded
+  in 2016 by Sean Bourgeois and later based in Greenwich, Connecticut, the
+  platform ran auction-style placements for insurers, brokers, reinsurers, ILS
+  funds, and Lloyd's syndicates, and added Tremor Wordings to digitize contract
+  negotiation. Backed by Anthemis (lead), W. R. Berkley, Nephila Capital, and
+  Markel, Tremor's assets were sold to W. R. Berkley Corporation in September
+  2023 and the standalone public marketplace site (tremor.co) is no longer live.
 url: https://raw.githubusercontent.com/api-evangelist/tremor/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - anthemis
+- wr-berkley
+- nephila-capital
+- markel
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: W. R. Berkley Corporation
+x-acquired-date: '2023-09'
+x-founded: '2016'
+x-founder: Sean Bourgeois
+x-headquarters: Greenwich, Connecticut, United States
+x-website: https://www.tremor.co
+x-website-status: '404 (site offline post-acquisition, probed 2026-07-21)'
+x-api-surface: none
+x-api-surface-note: >-
+  No public developer API, documentation, SDK, packages, MCP server, or llms.txt
+  found. tremor.co (S3/CloudFront) 301s to www and returns 404; app.tremor.co
+  returns 503; no api/docs/developer subdomains resolve. B2B reinsurance
+  marketplace with no public integration surface; assets absorbed by W. R.
+  Berkley in 2023.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Reinsurance
+- Insurance
+- Insurtech
+- Marketplace
+- Auction
+- Risk
+- Financial Services
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
