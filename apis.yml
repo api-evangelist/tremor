@@ -48,7 +48,7 @@ x-api-surface-note: >-
   returns 503; no api/docs/developer subdomains resolve. B2B reinsurance
   marketplace with no public integration surface; assets absorbed by W. R.
   Berkley in 2023.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
