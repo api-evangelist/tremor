@@ -69,8 +69,8 @@ tags:
 - Insurtech
 - Marketplace
 - Auctions
-- Risk
-- Financial-Services
+- Risk Management
+- Financial Services
 tags_raw:
 - Company
 - Reinsurance
@@ -80,6 +80,7 @@ tags_raw:
 - Auction
 - Risk
 - Financial Services
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
